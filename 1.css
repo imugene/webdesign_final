@@ -1,0 +1,96 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림", "futur";
+}
+*{
+    background-color: #d6dbf0;
+}
+
+@font-face{
+    font-family:futur;
+    src:url(futur.ttf);
+}
+
+#icon{
+    width:130px;
+    height:130px;
+    margin: 2px 20px;
+    float: left;
+
+}
+
+.list{
+    list-style: none;
+    font-family:futur;
+    font-weight: bold;
+    padding: 10px 0px 10px;
+    border-bottom: 5px solid #4A33F0;
+    width: 900px;
+    margin-top: 40px;
+}
+
+header nav{
+    width: 50%;
+    float:right;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+
+
+a:link{
+    color: #484848;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #8d8d8d;
+}
+
+a:hover{
+    color:#365aff;
+}
+
+tr{
+    margin: auto;
+}
+
+td{
+   border: none;
+   padding: 0 10px 5px ;
+   font-family:futur;
+   font-weight: bold;
+   font-size: 20px;
+    color:#6955ff;
+}
+
+
+.image{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 500px;
+   
+}
+
+.about{
+    font-family: futur;
+    font-weight: regular;
+    color:#000000;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 5px 0px 0px;
+    padding-left: 700px;
+    font-size: 15px;
+ 
+}
+
+.title{
+    font-family: futur;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 5px 0px 0px;
+    padding-left: 700px;
+    font-size: 18px;
+}

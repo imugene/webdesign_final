@@ -1,0 +1,92 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림", "futur";
+}
+*{
+    background-color: #d6dbf0;
+}
+
+
+@font-face{
+    font-family:futur;
+    src:url(futur.ttf);
+}
+
+#icon{
+    width:130px;
+    height:130px;
+    margin: 2px 20px;
+    float: left;
+
+}
+
+.list{
+    list-style: none;
+    font-family:futur;
+    font-weight: bold;
+    padding: 10px 0px 10px;
+    border-bottom: 5px solid #4A33F0;
+    width: 900px;
+    margin-top: 40px;
+}
+
+header nav{
+    width: 50%;
+    float:right;
+}
+
+nav ul li{
+    display:inline;
+    margin: 15px;
+}
+
+
+a:link{
+    color: #484848;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #484848;
+}
+
+a:hover{
+    color: #4A33F0;
+}
+section{
+    margin: auto;
+}
+h1{
+    padding: 10px;
+    font-family:a옛날목욕탕l;
+    color: #484848;
+    border: 1px solid;
+    width:600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topstory{
+    font-family:a옛날목욕탕l;
+    width: 1000px;
+    padding: 10px;
+    line-height: 2em;
+    font-size: 20px;
+    color:#8293dd; 
+    margin: auto;
+}
+
+.story{
+    font-family:a옛날목욕탕l;
+    width: 800px;
+    padding: 10px;
+    line-height: 2em;
+    margin: auto;
+}
+
+.image{
+   margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
